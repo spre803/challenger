@@ -1,0 +1,44 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+
+// Variables
+@import '../variables/variables';
+
+// Bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/solid';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/brands';
+
+//Components
+@import '../components/buttons';
+@import '../components/inputs';
+@import '../components/cards';
+@import '../components/svgs';
+@import '../components/navbar';
+@import '../components/sidebar';
+@import '../components/trends';
+
+//Utilitys
+@import '../utilitys/utilitys';
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  padding-top: $g-navbar-height;
+  vertical-align: top;
+}
+
+.content-wrap.is-sidebar {
+  margin-left: $sidebar-width;
+}

@@ -1,0 +1,17 @@
+$sidebar-width: $g-sidebar-width;
+$sidebar-border: $border-color $border-width solid;
+
+.sidebar-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: white;
+}
+
+.sidebar {
+  padding-top: $g-navbar-height;
+  height: 100%;
+  width: $sidebar-width;
+  border-right: $sidebar-border;
+}

@@ -1,0 +1,17 @@
+$btn-accent-color: $color-accent-main;
+
+//BS Theming
+
+.btn-accent {
+    @include button-variant($btn-accent-color, $btn-accent-color, $hover-background: darken($btn-accent-color, 7.5%), $hover-border: darken($btn-accent-color, 10%), $active-background: darken($btn-accent-color, 10%), $active-border: darken($btn-accent-color, 12.5%))
+}
+
+.btn-outline-accent {
+    @include  button-outline-variant($btn-accent-color, $color-hover: color-yiq($btn-accent-color), $active-background: $btn-accent-color, $active-border: $btn-accent-color);
+}
+
+.btn-white {
+    @include button-variant(white, white, $hover-background: darken(white, 7.5%), $hover-border: darken(white, 10%), $active-background: darken(white, 10%), $active-border: darken(white, 12.5%))
+}
+
+//BS Theming end

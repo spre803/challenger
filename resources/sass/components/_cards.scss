@@ -1,0 +1,31 @@
+// Bootstrap config - start
+
+.card-header, .card-footer {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.card {
+    padding: $card-spacer-x;
+}
+
+.card-header {
+    padding: 0;
+    padding-bottom: 1.3em;
+}
+
+.card-body {
+    padding: 0;
+    padding-bottom: $card-spacer-y;
+}
+
+.card-footer {
+    padding: 0;
+}
+
+// Bootstrap config - end
+
+.card--list-element {
+    padding: 1em;
+    margin-bottom: 0.75em;
+}

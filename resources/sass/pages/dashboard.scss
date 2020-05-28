@@ -1,0 +1,27 @@
+// Variables
+@import '../variables/variables';
+
+$details-color: $color-secondary;
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$button-vertical-offset: 0.5rem;
+
+.user__name {
+    font-weight: bold;
+    font-size: 160%;
+}
+
+.user__course {
+    color: $details-color;
+    font-weight: $font-weight-medium;
+    margin-bottom: $button-vertical-offset;
+}
+
+.user__university {
+    font-weight: $font-weight-medium;
+    color: $details-color;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+}

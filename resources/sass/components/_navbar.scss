@@ -1,0 +1,16 @@
+$nav-border-bottom: $border-color $border-width solid;
+
+
+.navbar {
+  border-bottom:$nav-border-bottom;
+}
+
+.logo {
+  width: 8.7em;
+  padding: 0.5em 0;
+  height: auto;
+}
+
+.logo-wrap {
+  width: $g-sidebar-width - $navbar-padding-x;
+}

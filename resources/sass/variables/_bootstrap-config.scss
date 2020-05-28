@@ -1,0 +1,72 @@
+// Body
+$body-bg: $color-bg-main;
+$body-color: $color-dark-main;
+
+// Typography
+$font-family-sans-serif: $font-family-main;
+$font-size-base: $font-size-base;
+$line-height-base: $font-lh-base;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$theme-colors: (
+  "primary": $color-main,
+  "secondary": $color-secondary,
+  "light": $color-bg-secondary
+);
+
+//Border
+$border-width: 2px;
+$border-color: $color-bg-secondary;
+$border-radius: 0.25rem;
+
+//Buttons
+$btn-padding-x: 1.5rem;
+$btn-font-weight: 400;
+$btn-font-size: 0.9rem;
+$btn-border-radius: $border-radius;
+
+$btn-border-radius-sm: $btn-border-radius;
+$btn-padding-x-sm: $btn-padding-x;
+
+$btn-border-radius-lg: $btn-border-radius;
+$btn-padding-x-lg: $btn-padding-x;
+
+
+//lightness-contrast-difference
+$yiq-contrasted-threshold: 150;
+$yiq-text-dark: $color-dark-main;
+
+// Cards
+$card-border-color: $color-bg-secondary;
+$card-cap-color: $color-secondary;
+$card-cap-bg: unset;
+
+// HR
+$hr-border-color: $color-bg-secondary;
+
+//Links
+$link-decoration: underline;
+
+//Badge
+$badge-font-size: 100%;
+$badge-font-weight: inherit;
+
+//Input
+$input-border-color: $color-bg-secondary;
+$input-group-addon-bg: white;
+
+//Nav
+$navbar-padding-y: 1rem;
+$navbar-padding-horizontal: 1rem;
+$navbar-padding-vertical: 1rem;

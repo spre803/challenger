@@ -1,0 +1,43 @@
+$icon-color: $color-accent-positive;
+$number-color-pos: $color-accent-positive;
+$number-color-neg: $color-accent-negative;
+$number-color-compare: $color-accent-main;
+$icon-vertical-offset: 0.35em;
+$icon-size: 1.1rem;
+
+
+.trend {
+    position: relative;
+}
+
+.trend i {
+    font-size: $icon-size;
+    position: absolute;
+    top: $icon-vertical-offset;
+}
+
+.trend__number {
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.trend--positive {
+    color: $number-color-pos;
+}
+
+.trend--negative {
+    color: $number-color-neg;
+}
+
+.trend--compare {
+    color: $number-color-compare;
+}
+
+.trend--positive i {
+    @include transform(rotate(45deg));
+}
+
+.trend--negative i {
+    @include transform(rotate(-135deg));
+}
+

@@ -1,0 +1,50 @@
+$svg-primary-color: $color-main;
+$svg-secondary-color: $color-secondary;
+
+$svg-primary-color-dark: $color-dark-main;
+$svg-secondary-color-dark: $color-dark-secodary;
+
+$svg-color-reverse: $color-reverse;
+
+$svg-bg-color: $color-bg-main;
+$svg-bg-secondary-color: $color-bg-secondary;
+
+$svg-accent-main-color: $color-accent-main;
+$svg-accent-positive-color: $color-accent-positive;
+$svg-accent-negative-color: $color-accent-negative;
+
+.fill-primary {
+  fill: $svg-primary-color;
+}
+
+.fill-secondary {
+  fill: $svg-secondary-color;
+}
+
+.fill-primary-dark {
+  fill: $svg-primary-color-dark;
+}
+
+.fill-reverse {
+  fill: $svg-color-reverse;
+}
+
+.fill-bg {
+  fill: $svg-bg-color;
+}
+
+.fill-bg-secondary {
+  fill: $svg-bg-secondary-color;
+}
+
+.fill-accent {
+  fill: $svg-accent-main-color;
+}
+
+.fill-success {
+  fill: $svg-accent-positive-color;
+}
+
+.fill-error {
+  fill: $svg-accent-negative-color;
+}
